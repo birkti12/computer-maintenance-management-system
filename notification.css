@@ -1,0 +1,255 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    background: #00A9D4;
+    height: 60px;
+    position: relative;
+}
+.text textarea {
+    margin-top: 1%;
+    margin-left: 20%;
+}
+.left-sidebar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.main-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #00A9D4;
+        padding: 5px 5%;
+        position: sticky;
+        top: 0;
+        z-index: 100;  
+    
+}
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li{
+    list-style:none ;
+    display: inline-block;
+    padding: 10px;
+}
+.nav-left ul li img{
+    width: 50px;
+    margin: 0 15px;
+}
+.icon{
+    cursor: pointer;
+    margin-right: 50px;
+    line-height: 60px;
+}
+.icon span{
+    background: #f00;
+    padding: 7px;
+    border-radius: 50%;
+    color: #fff;
+    vertical-align: top;
+    margin-left: -25;
+}
+.icon img {
+    display: inline-block;
+    width: 40px;
+    margin-top: 20px;
+}
+.icon:hover {
+    opacity: .7;
+}
+.logo{
+    flex: 1;
+    margin-left: 50px;
+    color: #eee;
+    font-size: 20px;
+    font-family: monospace;
+}
+.notifi-box{
+    width: 300px;
+    height: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 63px;
+    right: 35px;
+    transition: 1s opacity, 250ms height;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.notifi-box h2{
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #999;
+}
+.notifi-box h2 span{
+    color: #f00;
+}
+.notifi-item{
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding: 15px 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.notifi-item:hover{
+    background-color: #eee;
+}
+.notifi-item img{
+    display: block;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.notifi-item .text h4 {
+    color: #777;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.notifi-item .text p{
+    color: #aaa;
+    font-size: 12px;
+}
+.icon1{
+    cursor: pointer;
+    margin-right: 50px;
+    line-height: 60px;
+}
+.icon1 span{
+    background: #f00;
+    padding: 7px;
+    border-radius: 50%;
+    color: #fff;
+    vertical-align: top;
+    margin-left: -25;
+}
+.icon1 img {
+    display: inline-block;
+    width: 40px;
+    margin-top: 20px;
+}
+.icon1:hover {
+    opacity: .7;
+}
+.icon2{
+    cursor: pointer;
+    margin-right: 50px;
+    line-height: 60px;
+}
+.icon2 span{
+    background: #f00;
+    padding: 7px;
+    border-radius: 50%;
+    color: #fff;
+    vertical-align: top;
+    margin-left: -25;
+}
+.icon2 img {
+    display: inline-block;
+    width: 40px;
+    margin-top: 20px;
+}
+.icon2:hover {
+    opacity: .7;
+}
+.icon3{
+    cursor: pointer;
+    margin-right: 50px;
+    line-height: 60px;
+}
+.icon3 span{
+    background: #f00;
+    padding: 7px;
+    border-radius: 50%;
+    color: #fff;
+    vertical-align: top;
+    margin-left: -25;
+}
+.icon3 img {
+    display: inline-block;
+    width: 40px;
+    margin-top: 20px;
+}
+.icon3:hover {
+    opacity: .7;
+}
+.left-sidebar{
+    /* background: #cbdffa; */
+    flex-basis: 25%;
+    position: sticky;
+    align-self: flex-start;
+    top: 70px;
+    
+}
+.main-content{
+    flex-basis: 47%; 
+}
+.imp-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+}
+.imp-links a img{
+    width: 45px;
+    margin-right: 25px;
+}
+.imp-links{
+    border-bottom: 1px solid #ccc;
+}
+.right-sidebar{
+    /* background: #cbdffa; */
+    flex-basis: 25%;
+    position: sticky;
+    align-self: flex-start;
+    top: 70px;
+    
+}
+.sidebar-title a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+   
+}
+.sidebar-title a img{
+    width: 45px;
+    margin-right: 25px;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 3%;
+}
+a:link{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    
+    }
+    a:visited{
+        color:rgb(148, 20, 31);
+        
+    }
+    a:hover{
+        color:white;
+        background-color: gray;
+        /* padding: 15px; */
+    }
+    a:active{
+        color:greenyellow;
+    }

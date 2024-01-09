@@ -1,0 +1,47 @@
+*{
+    margin: -22px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.search{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    border: 4px,solid,#0099ff;
+    height: 40px;
+    width: 511px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: Bahnschrift Light;
+}
+body{
+    background: rgb(208, 215, 209);
+}
+/* .m{
+    margin-left:10% ;
+    margin-right: 10%;
+} */
+.ask,.ask2{
+    margin-left: 100%;
+    
+}
+.ask3{
+    margin-left: 65%;  
+}
+.miki{
+margin-left: 80%;
+
+}
+h2{
+    margin-left: 30%;
+    color: blue;
+}
+.cv table{
+    margin-left: 30%;
+    width: 40%;
+}

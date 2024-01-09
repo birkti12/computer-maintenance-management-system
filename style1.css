@@ -1,0 +1,16 @@
+.leftside, .rightside{
+    height: 100vh;
+    width: 100%;
+}
+.leftside{
+    background: teal;
+    cursor: pointer;
+    
+}
+.rightside{
+  background: rgb(196, 196, 232);  
+}
+.miki{
+margin-left: 80%;
+
+}

@@ -1,0 +1,32 @@
+p{
+   
+    margin-left: 15px;
+}
+ul{
+    background-color:white ;
+    padding: 15px;
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+}
+ul li a:link{
+text-decoration: none;
+color: #000;
+font-size: 20px;
+text-transform: uppercase;
+
+}
+ul li a:visited{
+    color:rgb(154, 59, 192);
+    
+}
+ul li a:hover{
+    color:white;
+    background-color: blueviolet;
+    padding: 15px;
+}
+ul li a:active{
+    color:greenyellow;
+}
